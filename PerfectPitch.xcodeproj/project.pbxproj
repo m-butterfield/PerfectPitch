@@ -13,6 +13,7 @@
 		C9F3646D1ABE0052002B33EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F3646C1ABE0052002B33EB /* Images.xcassets */; };
 		C9F364701ABE0052002B33EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9F3646E1ABE0052002B33EB /* LaunchScreen.xib */; };
 		C9F3647C1ABE0052002B33EB /* PerfectPitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F3647B1ABE0052002B33EB /* PerfectPitchTests.swift */; };
+		C9F364861ABE01E9002B33EB /* SoundGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F364851ABE01E9002B33EB /* SoundGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C9F364751ABE0052002B33EB /* PerfectPitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerfectPitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F3647A1ABE0052002B33EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9F3647B1ABE0052002B33EB /* PerfectPitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectPitchTests.swift; sourceTree = "<group>"; };
+		C9F364851ABE01E9002B33EB /* SoundGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				C9F364651ABE0052002B33EB /* AppDelegate.swift */,
 				C9F364671ABE0052002B33EB /* ViewController.swift */,
+				C9F364851ABE01E9002B33EB /* SoundGenerator.swift */,
 				C9F364691ABE0052002B33EB /* Main.storyboard */,
 				C9F3646C1ABE0052002B33EB /* Images.xcassets */,
 				C9F3646E1ABE0052002B33EB /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F364861ABE01E9002B33EB /* SoundGenerator.swift in Sources */,
 				C9F364681ABE0052002B33EB /* ViewController.swift in Sources */,
 				C9F364661ABE0052002B33EB /* AppDelegate.swift in Sources */,
 			);
@@ -336,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PerfectPitch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PerfectPitch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
